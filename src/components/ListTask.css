@@ -1,0 +1,21 @@
+/* src/components/ListTask.css */
+.filter-buttons {
+    margin: 20px 0;
+  }
+  
+  .filter-buttons button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .filter-buttons button:hover {
+    opacity: 0.8;
+  }
+  
+  .task-list {
+    margin-top: 20px;
+  }
+  

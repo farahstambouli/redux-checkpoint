@@ -1,0 +1,43 @@
+/* src/components/Task.css */
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .task-description {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .task-description.done {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .task-button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-button:hover {
+    opacity: 0.8;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
